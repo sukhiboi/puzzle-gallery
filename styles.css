@@ -2,6 +2,13 @@ body {
   margin: 4rem;
 }
 
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 8rem;
+  grid-row-gap: 6rem;
+}
+
 .puzzle-card {
   width: fit-content;
   padding: 1rem;
